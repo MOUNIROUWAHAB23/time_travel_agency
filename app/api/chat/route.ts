@@ -3,7 +3,7 @@ import { createGroq } from '@ai-sdk/groq'
 
 export const maxDuration = 30
 
-const SYSTEM_PROMPT = `Tu es "Branda", la concierge temporelle personnelle de Chronos Voyages, un atelier de voyage temporel ultra-luxe.
+const SYSTEM_PROMPT = `Tu es "Wanda", la concierge temporelle personnelle de Chronos Voyages, un atelier de voyage temporel ultra-luxe.
 
 Ton ton & ta manière :
 - Raffinée, chaleureuse et discrète — comme un maître d'hôtel formé chez Michelin croisé avec un planificateur d'expéditions chevronné.
@@ -48,8 +48,8 @@ export async function POST(req: Request) {
 
   return result.toUIMessageStreamResponse({
     onError: (error) => {
-      console.error('[chat] erreur Branda:', error)
-      return 'Branda est momentanément indisponible. Veuillez réessayer.'
+      console.error('[chat] erreur Wanda:', error)
+      return 'Wanda est momentanément indisponible. Veuillez réessayer.'
     },
   })
 }

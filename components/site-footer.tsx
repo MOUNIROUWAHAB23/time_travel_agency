@@ -23,7 +23,7 @@ export function SiteFooter() {
           />
           <Button
             render={
-              <a href="wahabmounirou38@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:wahabmounirou38@gmail.com">
                 Parler à un Directeur
               </a>
             }
@@ -48,7 +48,7 @@ export function SiteFooter() {
             <a href="#quiz" className="transition-colors duration-200 hover:text-foreground">Mon Époque</a>
             <a href="#atelier" className="transition-colors duration-200 hover:text-foreground">L&apos;Atelier</a>
             <a href="#assurance" className="transition-colors duration-200 hover:text-foreground">Assurance</a>
-            <a href="wahabmounirou38@gmail.com" target="_blank" rel="noopener noreferrer" className="transition-colors duration-200 hover:text-foreground">Contact</a>
+            <a href="mailto:wahabmounirou38@gmail.com" className="transition-colors duration-200 hover:text-foreground">Contact</a>
           </nav>
           <p className="text-xs tracking-wide">
             © {new Date().getFullYear()} Chronos Voyages · Toutes les époques réservées
