@@ -100,4 +100,4 @@ Le workflow "vibe coding" a permis de générer une base solide en quelques minu
 
 ---
 
-*Projet pédagogique — M1/M2 Digital & IA · Chronos Voyages © toutes les époques réservées*
+*Projet pédagogique — M1/M2 Digital & IA · Chronos Voyages *
